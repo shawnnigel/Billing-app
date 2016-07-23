@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
     <div class="panel panel-default">
@@ -8,18 +8,23 @@
 
       <div class="panel-body">
         <p>
-          <strong>Company:</strong>
+          <strong>From:</strong>
+          
           <%= @invoice.company %>
-        </p>
+        
+         </p>
 
-        <p>
-          <strong>Contragent:</strong>
+
+        
+          <strong>To:</strong>
+          
           <%= @invoice.contragent %>
+          
         </p>
 
         <p>
           <strong>Amount:</strong>
-          <%= @invoice.amount %> <%= @invoice.currency %>
+          <%= @invoice.currency %>  <%= @invoice.amount %> 
         </p>
 
         <p>
