@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>InvoicesBook</title>
+  <title>InvoiceBook</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
@@ -20,10 +20,10 @@
 	        <span class="icon-bar"></span>
 	      </button>
 	      <% if user_signed_in? %>
-	      <a class="navbar-brand" href="<%=invoices_path%>">InvoicesBook</a>
+	      <a class="navbar-brand" href="<%=invoices_path%>">InvoiceBook</a>
 	     
 	     <% else %>
-	     <a class="navbar-brand" href="/">InvoicesBook</a>
+	     <a class="navbar-brand" href="/">InvoiceBook</a>
 	     <% end %>
        </div>
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">

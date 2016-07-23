@@ -9,11 +9,16 @@
       </div>
       
       <div class="panel-body">
-      
+      <%if @invoices.count > 0%>
       <div class="chart">
+       
+         
        <h3 class="text-center">Your total billings vs time</h3>
         <%= area_chart @invoices.group(:date).sum(:amount)%>
       </div>
+      <%end%>
+
+
         <table class="table table-hover table-bordered">
           <thead> 
             <tr>

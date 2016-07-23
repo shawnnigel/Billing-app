@@ -1,12 +1,5 @@
 $(document).ready(function(){
-$(".btn").click(function(){
-   $("div").animate({
-        
-        opacity: '0.2',
-        height: '20px',
-        width: '50px'
-    });
-}); 
+
 	$('input').click(function(){
 		$(this).select();
 	});
