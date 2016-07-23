@@ -1,0 +1,31 @@
+
+<div class="container-fluid">
+<div class="jumbotron" style="background-color: #f4511e; 
+    color: #ffffff; margin-top: -20px">
+<h1 class="text-center" style="color: #ffffff;">Welcome to my InvoicesBook</h1>
+<p class="text-center">InvoicesBook lets you create, print and manage invoices</p>
+<br><br><br>
+
+ <%= button_tag "Get Started", :type => 'button', :class=>"btn-lg btn-success center-block", :onclick => "location.href = '#{new_user_session_path}'" %>
+</div>
+</div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+        <h1 class="	glyphicon glyphicon-list-alt text-center"></h1>
+          <h3>Create Invoices</h2>
+          <p> </p>
+        
+        </div>
+        <div class="col-md-4">
+        <h1 class="	glyphicon glyphicon-duplicate"></h1>
+          <h2>Print Invoices</h2>
+          
+       </div>
+        <div class="col-md-4">
+            
+          <h1 class="glyphicon glyphicon-stats text-center"></h1><h2>View data Graphically </h2>
+        </div>
+      </div>
