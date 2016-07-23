@@ -28,7 +28,7 @@ gem'themify-icons-rails'
 gem 'devise'
 # Use Unicorn as the app server
 gem 'puma'
-
+gem 'chartkick'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
